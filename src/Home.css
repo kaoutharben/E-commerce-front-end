@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+.home__bg{
+    height:91vh ;
+    width: 100%;
+    
+
+}
+.img__text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text__center{
+    font-family: "Baloo Tammudu 2";
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 32px;
+    text-align: center;
+    color: #232323;
+
+}
+.button__img{
+    font-family: "Baloo Tammudu 2";
+    font-weight: bold;
+    font-size:20px;
+    width: 140px;
+    height:40px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #232323;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    color:  #efaa24;
+    cursor: pointer;
+   
+}
+.button__img:hover {
+    background-color:transparent ; 
+    border: #232323 2px solid;
+    color: #232323;
+    
+  }
+  .second__row{ 
+  display: flex;
+  align-items:center;
+  background-image: url(BG2.png);
+  height: 350px;
+  width: 100%;
+  }
+  
+  .product__list{
+      display: flex;
+      flex-direction: column; 
+      align-items: flex-start ;
+      text-decoration:none;
+      margin: 0 auto;
+      margin-top: 30px;
+     
+  }
+  .items{
+    display:flex ;
+  }
+  .link__home ,.link__home:hover, .link__home:active, .link__home:visited, .link__home:focus{
+    text-decoration:none !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: 'none' !important;
+}
+  
+  .title__row{
+    white-space: nowrap;
+    font-family: "Baloo Tammudu 2";
+    font-weight: bold;
+    font-size: 38.4px;
+    line-height: 48px;
+    text-align: center;
+    color: #f2f2f2;
+    align-items: flex-start !important;
+   
+
+  }
+  .link,.link:hover, .link:active, .link:visited, .link:focus {
+    text-decoration:none !important;
+    border: none;
+}
+#hero__catg{
+  font-family: "Baloo Tammudu 2";
+font-weight: bold;
+font-size: 50px;
+text-align: center;
+color: #232323;
+
+}
+.home__category{
+ width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.category__row{
+  display: flex;
+ align-items: center;
+ justify-content: center;
+
+  }

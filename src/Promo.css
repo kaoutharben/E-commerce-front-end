@@ -1,0 +1,63 @@
+.promo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 25px;
+    margin-top: 5px;
+  }
+
+ .promo__bar{
+     display: flex;
+     justify-content: center;
+     position: absolute;
+     top: 10;
+    width: 150px;
+    height: 25px ;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color:red;
+    color: #f2f2f2;
+    text-align: center;
+    z-index: 1;
+ }
+  
+  .promo__img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  
+  .promo__name {
+    font-family: "Baloo Tammudu 2";
+    font-weight: 384;
+    font-size: 20.74px;
+    color: #f2f2f2;
+    line-height: 26px;
+    margin-top: 7px;
+    
+  }
+  
+  .promo__price {
+    display: flex;
+    font-family: "Baloo Tammudu 2";
+    font-weight: 384;
+    font-size: 20.74px;
+    color: #f2f2f2;
+    line-height: 26px;
+
+   }
+   .price__promo{
+     margin-right: 2px;
+   }
+   .old__price{
+    text-decoration-line: line-through; 
+    color:rgba(104, 97, 104, 0.911);
+    line-height: 26px;
+    margin-top: -12px;
+    font-size: 19px;
+    margin-bottom: 5px;
+   }
+   .space{
+     margin-left: 3px;
+   }

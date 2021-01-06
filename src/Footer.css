@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+.footer{
+    width:100%;
+    height:20vh;
+    background: #232323;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+    font-size: 15px;
+    position: absolute;
+  
+    
+
+}
+.footer__right{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.footer__left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+    margin-right: 130.95px    ;
+    
+}
+.subline{
+    display: flex;
+    justify-content: space-between;
+   align-items: flex-start;
+   margin-left: 72.2px;
+}
+.right{
+    margin-right: 10px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.cadiExpresse{
+
+   font-size: 20px;
+}
+.social__media{
+    margin: 10px;
+    
+    
+}
+
+
+

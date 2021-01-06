@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+
+.signUp{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(BG3.jpg);
+    display: flex;
+    flex-direction: column;
+}
+.logo__head{
+    object-fit: contain;
+    width: 77px;
+    margin-top: 25.78px;
+    margin-left: 34.11px;
+   
+}
+.logo__form{
+    object-fit: contain;
+    width: 600px;
+    margin: 0 auto;
+}
+.info__user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.input__name{
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    border:  4px solid #efaa24;
+    width: 490px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.input__signUp
+{    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    border:  4px solid #efaa24;
+    width: 490px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: white;
+    
+    
+}
+.input__signUp > input{
+  
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+    height: 60%;
+    margin: 10px;
+    outline: none;
+    border-width:0px;
+    border:none;
+}
+.input__name > input{
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+    height: 60%;
+    margin: 10px;
+    outline: none;
+    border-width:0px;
+    border:none;
+}
+input[type="text"]
+{
+    font-size:14pt;
+}
+input::placeholder {
+    font-size: 14pt;
+   font-family: 'Baloo Tammudu 2';
+  }
+  .icon{
+      padding: 4px;
+  }
+  .signUp__signInButton{
+    font-family: "Baloo Tammudu 2";
+    font-weight: bold;
+    font-size:20px;
+    width: 120px;
+    height: 46px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #efaa24;
+    padding-top: 4px;
+    color: #232323;
+    cursor: pointer;
+  }
+  .signUp__signInButton:hover {
+    background-color:#232323 ; 
+        color: #efaa24;
+  }
+  .connexion{
+    margin: 0 auto;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #232323;
+  
+  }
+  
+  .connexion:hover { text-decoration: none; color:#232323; }
+  
+  .connexion:hover, a:active { text-decoration: none;border-bottom: 2px solid #232323; color:#232323 }
+  
+ 
+  
+  .header__sign,.header__sign:hover, .header__sign:active, .header__sign:visited, .header__sign:focus {
+    text-decoration:none !important;
+    border: none;
+}
+.error{
+    color: red;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    font-family: 'Baloo Tammudu 2';
+}

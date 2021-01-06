@@ -32,9 +32,14 @@
  
 }
 .mid__logoimg{
-  height: 28px !important;
-  width: 30px;
+
   fill: #EFAA24;
+}
+.face__header{
+  fill: #EFAA24;
+}
+.link__header:hover .face__header{
+  fill: #eeeeee;
 }
 
 .mid__line{
@@ -42,9 +47,9 @@
   font-family: 'Baloo Tammudu 2';
   color: white;
 }
-.logIn{
+ .logIn__home{
   display: flex;
-  flex: 0.15;
+  flex: 0.20;
   flex-direction: column;
   align-items: center;
   margin-top: 8px;
@@ -54,4 +59,12 @@
   font-size: 10pt;
   font-family: 'Baloo Tammudu 2';
   color: white;
+}
+.link__header:-webkit-any-link{
+  text-decoration:none !important;
+  border: none;
+  }
+ .link__header,.link__header:hover, .link__header:active, .link__header:visited, .link__header:focus {
+    text-decoration:none !important;
+    border: none;
 }

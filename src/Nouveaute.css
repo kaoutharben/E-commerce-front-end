@@ -1,0 +1,51 @@
+.nouveaute {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 25px;
+    margin-top: 5px;
+  }
+
+ .nv__bar{
+     position: absolute;
+     top: 10;
+    width: 150px;
+    height: 25px ;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color:#efaa24;
+    color: #f2f2f2;
+    text-align: center;
+    z-index: 1;
+ }
+  
+  .nv__img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    
+
+  }
+  
+  .nv__name {
+    font-family: "Baloo Tammudu 2";
+    font-weight: 384;
+    font-size: 20.74px;
+    color: #f2f2f2;
+    line-height: 26px;
+    margin-top: 7px;
+    
+  }
+  
+  .nv__price {
+    display: flex;
+    font-family: "Baloo Tammudu 2";
+    font-weight: 384;
+    font-size: 20.74px;
+    color: #f2f2f2;
+    line-height: 26px;
+   }
+   .price__nv{
+     margin-right: 2px;
+   }
