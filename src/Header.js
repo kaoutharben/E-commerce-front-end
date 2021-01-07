@@ -8,20 +8,27 @@ import { Link }  from "react-router-dom" ;
 import { useStateValue } from "./StateProvider";
 import logo from './Logo.png'; 
 
-function Header() {
+function Header({hideProduct = false}) {
     const [{ user }] = useStateValue();
    
     return (
         <div className='header'>
-            <Link   className="link__header" path="/">
+            <Link   className="link__header" to="/">
                 <img className='header__logo' src={logo} alt="logo"/>
            </Link>
            <div className='header__mid'>
-               <div className='header__option'>
+              
+                {!hideProduct ?(<div className='header__option'>
+                <Link  className=" header__option1 link__header" to="./produits">
                     <StorefrontIcon  style={{fontSize: '28px', color :'#EFAA24'}} />
                     <span className='mid__line'>Produits</span>
+                    </Link>
+                </div>):
+            (<div className='header__option hide__header'>
+            <StorefrontIcon  style={{fontSize: '28px', color :'#EFAA24'}} />
+            <span className='mid__line'>Produits</span>
 
-                </div>
+        </div>)}
                 <div className='header__option'>
                 <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="28px !important" viewBox="0 0 24 24" width="30px">
                     <g>

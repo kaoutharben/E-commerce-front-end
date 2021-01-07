@@ -1,0 +1,134 @@
+.contact__chart{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.cart__home{
+    display: flex;
+    justify-content: space-between;
+    width: 770px;
+    height: 300px;
+    background: #232323;
+    border-radius: 2px;
+}
+.user__input{
+    display: flex;
+    flex: 0.8;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  border-right: solid 3px #efaa24;
+  
+}
+.cart__button{
+   align-self: flex-end !important;
+}
+.cart__input1{
+    background-color: #f2f2f2;
+    border: 4px solid #232323;
+    height: 25px;
+    width:60%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.cart__input1 {
+    border: none; 
+    padding-left: 10px;
+}
+.cart__input1:focus{
+    outline-width: 0;
+}
+.cart__input1[text]{
+    font-size:8pt ;
+    
+}
+.cart__input1::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 10pt;
+  }
+  .cart__input1::-moz-placeholder { /* Firefox 19+ */
+  font-size: 10pt;
+  }
+  .cart__input1:-ms-input-placeholder { /* IE 10+ */
+    font-size: 10pt;
+  }
+  .cart__input1:-moz-placeholder { /* Firefox 18- */
+    font-size: 10pt;
+  }
+  .cart__input2::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 10pt;
+    }
+    .cart__input2::-moz-placeholder { /* Firefox 19+ */
+    font-size: 10pt;
+    }
+    .cart__input2:-ms-input-placeholder { /* IE 10+ */
+      font-size: 10pt;
+
+    }
+    .cart__input2:-moz-placeholder { /* Firefox 18- */
+      font-size: 10pt;
+    }
+    .cart__input2{
+        background-color: #f2f2f2;
+        border: 4px solid #232323;
+        height: 100px;
+        width:80%;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+    .cart__input2 {
+        border: none;
+        align-items: flex-start;
+        padding-left: 10px;
+        padding-top: 5px;
+
+        
+     
+    }
+    .cart__input2:focus{
+        outline-width: 0;
+    }
+    .cart__input2[text]{
+
+      font-size:8pt ;
+     
+    }
+    .cart__button{
+        font-family: "Baloo Tammudu 2";
+        font-weight: bold;
+        font-size:15px;
+        width: 111.7px;
+        height: 32.73px;
+        border-radius: 30px;
+        background:  #efaa24;
+        color: #232323;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .cart__button:hover{
+        background-color:transparent ; 
+        border: #efaa24 solid 1px;
+        color: #efaa24;
+    }
+    .cart__text{
+        font-family: "Baloo Tammudu 2";
+        font-weight: bold;
+        font-size:  28px;
+        line-height: 38px;
+        text-align: center;
+        color: #f2f2f2;
+
+    }
+    .img__cart__home{
+     
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;margin-bottom: auto;
+      
+    }
+  

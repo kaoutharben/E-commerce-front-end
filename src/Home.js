@@ -7,6 +7,7 @@ import Nouveaute from './Nouveaute';
 import Promo from "./Promo";
 import Category from './Category';
 import Search from "./Search";
+import Contact from "./ContactChart";
 import { Link }  from "react-router-dom" ;
 import { Link as Scrolllink, animateScroll as scroll } from 'react-scroll';
 
@@ -99,6 +100,41 @@ function Home() {
                 </div>
 
             </div>
+           
+            <div className="home__localisation">
+                    <p className="localisation__title">Retrouvez Notre Supermarché</p>
+                    <div className="border__oredr">
+                    <div className="home__border">
+                    <p className="map__title">Sur la map:</p>
+                    
+                    <div className="map__home">
+                    
+                    <iframe className ="google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.308649586721!2d-8.031160385366377!3d31.625398549113747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafeec0be8052c3%3A0x6e02c47828988a6a!2sSuper%20march%C3%A9!5e0!3m2!1sfr!2sma!4v1609972381782!5m2!1sfr!2sma"
+                     width="600" 
+                     height="160.23" 
+                     frameborder="0" 
+                     style={{border:0}}
+                     allowfullscreen="" 
+                     aria-hidden="false"
+                      tabindex="0"></iframe>
+                     
+                    </div>
+                    </div>
+                    <div className="home__border">
+                            <p className="map__title">Notre adresse:</p>
+                            <div className="cart__localisation">
+
+                            <p className="address__home">XX</p>
+                            <p className="address__home" >Rue YY, Quartier ZZ,
+</p>
+                            <p className="address__home">Marrakech</p>
+                    </div>
+                    </div>
+                    </div>
+            </div>
+            <div className="orizontal__home"></div>
+
+            <Contact/>
             
         </div>
     )

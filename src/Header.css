@@ -31,6 +31,12 @@
  margin-top: 8px;
  
 }
+.header__option1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ margin-top: 2px;
+}
 .mid__logoimg{
 
   fill: #EFAA24;
@@ -67,4 +73,7 @@
  .link__header,.link__header:hover, .link__header:active, .link__header:visited, .link__header:focus {
     text-decoration:none !important;
     border: none;
+}
+.hide__header{
+  display: none !important;
 }

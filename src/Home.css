@@ -110,7 +110,7 @@ color: #232323;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 .category__row{
   display: flex;
@@ -118,3 +118,70 @@ color: #232323;
  justify-content: center;
 
   }
+  .home__localisation{
+    display: flex;
+   
+    flex-direction: column;
+  justify-content:center;
+    margin-bottom: 40px ;
+  }
+  .map__home{
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+  }
+  .localisation__title{
+    font-family: "Baloo Tammudu 2";
+  font-weight: bold;
+  line-height: 30px;
+  font-size: 30px;
+  color: #232323;
+
+  }
+  .map__title{
+    font-family: "Baloo Tammudu 2";
+  font-weight: bold;
+  font-size: 20px;
+  color: #232323;
+
+  }
+  .cart__localisation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:160.23px;
+    padding-left: 20px;
+    padding-right: 50px;
+    border-radius: 10px;
+    background: #232323;
+
+  }
+  
+  .home__border{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .border__oredr{
+    display: flex;  
+    align-items: center;
+  }
+  .address__home{
+    font-family: "Baloo Tammudu 2";
+    font-weight: bold;
+    white-space: nowrap;
+    margin: 5px;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+  color: #ffe9c4;
+
+
+  }
+  .orizontal__home {
+    width: 200px;
+    height: 4px;
+    background: #232323;
+    margin-bottom: 30px;
+  }
+  

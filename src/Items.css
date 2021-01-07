@@ -1,0 +1,28 @@
+.items{
+    display: flex;
+    justify-content: center;
+        margin-bottom: 30px;
+}
+.items__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.items__products{
+    display: flex;
+    flex-direction:column ;
+    margin: 10px;
+}
+.items__product__row{
+    display: flex;
+    margin: 10px;
+}
+.items__title{
+    font-family: "Baloo Tammudu 2";
+font-weight: bold;
+font-size: 40px;
+line-height: 38px;
+color: #232323;
+padding-left: 10px;
+
+}

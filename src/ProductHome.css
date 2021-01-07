@@ -8,8 +8,8 @@
  
   
   .productHome__img {
-    width: 150px;
-    height: 150px;
+    width: 101px;
+    height: 101px;
     background: #232323;
     border-radius: 10px;
   }
@@ -23,13 +23,28 @@
     margin-top: 7px;
     
   }
-  
+  .productHomeBlack__name{
+    font-family: "Baloo Tammudu 2";
+    font-weight: lighter;
+    font-size: 20.74px;
+    color:  #232323;
+    line-height: 26px;
+    margin-top: 7px;
+  }
   .productHome__price {
     display: flex;
     font-family: "Baloo Tammudu 2";
     font-weight: 384;
     font-size: 20.74px;
     color: #f2f2f2;
+    line-height: 26px;
+   }
+   .productHomeBlack__price{
+    display: flex;
+    font-family: "Baloo Tammudu 2";
+    font-weight: bold;
+    font-size: 20.74px;
+    color:#232323;
     line-height: 26px;
    }
    .price__productHome{
