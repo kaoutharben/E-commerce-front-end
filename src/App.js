@@ -10,6 +10,7 @@ import CategoryList from "./CategoryList";
 import macaroni  from './macaroni.jpg';
 import bake from "./bake.jpg"; 
 import bg from "./bgC.jpg";
+import HeaderRes from "./HeaderRes";
 function App() {
   return (
     <Router>   
@@ -28,7 +29,7 @@ function App() {
           </Route>
           
         < Route  path="/" >        
-            <Header/>
+            <HeaderRes/>
             <Home/>
             <Footer/>
         </Route>
