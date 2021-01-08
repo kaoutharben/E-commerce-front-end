@@ -8,6 +8,12 @@
  
   
   .productHome__img {
+    width: 150px;
+    height: 150px;
+    background: #232323;
+    border-radius: 10px;
+  }
+  .productHomeBlack__img {
     width: 101px;
     height: 101px;
     background: #232323;

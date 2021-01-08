@@ -13,12 +13,12 @@ import { Link as Scrolllink, animateScroll as scroll } from 'react-scroll';
 
 
 
-
 function Home() {
   
 
     return (
         <div className="home">
+             
             <img className="home__bg" src={BG} alt="background"/>
             <div className="img__text">
                 <span className="text__center">Une Bande de Produits Qualité!</span>

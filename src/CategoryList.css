@@ -30,6 +30,7 @@
     justify-content: space-evenly;
     margin-bottom: 100px;
     margin-top: 40px;
+    
    
 } 
 
@@ -62,8 +63,8 @@
     position: relative;
     border: #232323 4px solid;
     position: relative;
-    border-radius: 10px;
-}
+    border-radius: 10px;}
+  
 .left__catgL:hover .picCatg__disc{
     visibility: visible;
     z-index: 1;
@@ -90,4 +91,10 @@
 .orizontal__home{
     margin: 0 auto;
     margin-bottom: 30px;
+}
+.arrow__down{
+    color :#232323;
+    border: #232323 1px solid;
+    margin-right: 50%;
+
 }

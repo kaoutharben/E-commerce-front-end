@@ -77,3 +77,17 @@
 .hide__header{
   display: none !important;
 }
+@media screen and (max-width: 700px) {
+  .header__logo {
+    width: 45.92px;
+    object-fit: contain;
+    margin-left: 30px;
+    margin-top: 8px;
+    margin-bottom: 12.52px;
+  }
+  .mid__line{
+    font-size: 7pt;
+    font-family: 'Baloo Tammudu 2';
+    color: white;
+  }
+}
