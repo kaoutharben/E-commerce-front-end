@@ -34,6 +34,10 @@
  }
  
  .hs__name {
+  width: 100px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
    font-family: "Baloo Tammudu 2";
    font-weight: lighter;
    font-size: 20.74px;
@@ -44,6 +48,10 @@
  }
  
  .hs__price {
+  width: 100px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
    display: flex;
    font-family: "Baloo Tammudu 2";
    font-weight:bold;
@@ -52,5 +60,6 @@
    line-height: 26px;
   }
   .price__hs{
+   
     margin-right: 2px;
   }

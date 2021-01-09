@@ -11,6 +11,7 @@ import macaroni  from './macaroni.jpg';
 import bake from "./bake.jpg"; 
 import bg from "./bgC.jpg";
 import HeaderRes from "./HeaderRes";
+import HeaderResH from "./HeaderResH";
 function App() {
   return (
     <Router>   
@@ -23,7 +24,7 @@ function App() {
             <SignUp/>
           </Route>
           <Route path="/produits">
-            <Header hideProduct/>
+            <HeaderResH />
             <CategoryList id="12" picture={bg} title="Boulangerie Viennoiserie" left= {bake} letftTitle="Boulangerie" right= {macaroni}rightTitle="Patisserie"/>
             <Footer/>
           </Route>

@@ -49,51 +49,74 @@
   }
   
   .promo__name {
+    width: 140px;
     font-family: "Baloo Tammudu 2";
     font-weight: 384;
     font-size: 20.74px;
     color: #f2f2f2;
     line-height: 26px;
     margin-top: 7px;
+    text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+    
     
   }
   .promoblack__name{
+    width: 100px;
     font-family: "Baloo Tammudu 2";
     font-weight: lighter;
     font-size: 20.74px;
     color: #232323;
     line-height: 26px;
     margin-top: 7px;
+    text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
   }
   
   .promo__price {
+    width: 140px;
     display: flex;
     font-family: "Baloo Tammudu 2";
     font-weight: 384;
     font-size: 20.74px;
     color: #f2f2f2;
     line-height: 26px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 
    }
    .promoblack__price{
+    width: 100px;
     display: flex;
     font-family: "Baloo Tammudu 2";
     font-weight: bold;
     font-size: 20.74px;
     color: red;
     line-height: 26px;
+    text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
 
    }
    .price__promo{
+   
      margin-right: 2px;
+  
    }
    .old__price{
+    width: 140px;
     text-decoration-line: line-through; 
     color:rgba(104, 97, 104, 0.911);
     line-height: 26px;
     margin-top: -12px;
     font-size: 19px;
     margin-bottom: 5px;
+   text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
    }
    .space{
      margin-left: 3px;

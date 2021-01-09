@@ -27,6 +27,11 @@
     color: #f2f2f2;
     line-height: 26px;
     margin-top: 7px;
+    width: 140px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
     
   }
   .productHomeBlack__name{
@@ -36,6 +41,10 @@
     color:  #232323;
     line-height: 26px;
     margin-top: 7px;
+    width: 100px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
   .productHome__price {
     display: flex;
@@ -44,6 +53,10 @@
     font-size: 20.74px;
     color: #f2f2f2;
     line-height: 26px;
+    width: 140px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
    }
    .productHomeBlack__price{
     display: flex;
@@ -52,7 +65,12 @@
     font-size: 20.74px;
     color:#232323;
     line-height: 26px;
+    width: 100px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
    }
    .price__productHome{
      margin-right: 2px;
+     
    }

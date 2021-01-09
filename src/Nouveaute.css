@@ -29,23 +29,32 @@
   }
   
   .nv__name {
+    width: 140px;
     font-family: "Baloo Tammudu 2";
     font-weight: 384;
     font-size: 20.74px;
     color: #f2f2f2;
     line-height: 26px;
     margin-top: 7px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     
   }
   
   .nv__price {
+    width: 150px;
     display: flex;
     font-family: "Baloo Tammudu 2";
     font-weight: 384;
     font-size: 20.74px;
     color: #f2f2f2;
     line-height: 26px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
    }
    .price__nv{
      margin-right: 2px;
+   
    }
