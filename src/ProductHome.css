@@ -74,3 +74,83 @@
      margin-right: 2px;
      
    }
+   @media screen and (max-width: 768px){
+    .productHome__img {
+      width: 100px;
+      height: 100px;
+      background: #232323;
+      border-radius: 10px;
+    }
+    .productHome__name {
+      font-family: "Baloo Tammudu 2";
+      font-weight: 384;
+      font-size: 15px;
+      color: #f2f2f2;
+      line-height: 26px;
+      margin-top: 7px;
+      width: 100px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+  
+      
+    }
+    .productHome__price {
+      display: flex;
+      font-family: "Baloo Tammudu 2";
+      font-weight: 384;
+      font-size: 15px;
+      color: #f2f2f2;
+      line-height: 26px;
+      width: 100px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+     }
+    .productHomeBlack__img {
+      width: 101px;
+      height: 101px;
+      background: #232323;
+      border-radius: 10px;
+    }
+    
+   }
+   @media only screen and (max-width: 893px) and (min-width: 768px){
+    .productHome__img {
+      width: 120px;
+      height: 120px;
+      background: #232323;
+      border-radius: 10px;
+    }
+    .productHome__name {
+      font-family: "Baloo Tammudu 2";
+      font-weight: 384;
+      font-size: 15px;
+      color: #f2f2f2;
+      line-height: 26px;
+      margin-top: 7px;
+      width: 120px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+  
+      
+    }
+    .productHome__price {
+      display: flex;
+      font-family: "Baloo Tammudu 2";
+      font-weight: 384;
+      font-size: 15px;
+      color: #f2f2f2;
+      line-height: 26px;
+      width: 120px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+     }
+    .productHomeBlack__img {
+      width: 101px;
+      height: 101px;
+      background: #232323;
+      border-radius: 10px;
+    }}

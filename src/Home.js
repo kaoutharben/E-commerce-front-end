@@ -37,7 +37,7 @@ function Home() {
                 <div className="title__row">Variable selon le type de produit</div>
 
                 <div className="items" id='hero'>
-                    <Link className="link__home">
+                    <Link className="link__home" >
                     <ProductHome id="1" title="Pack Ramadan " price={1270.99} image='https://ma.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/97/679553/1.jpg?8326'/>
                 </Link>
                 <Link className="link__home">
@@ -112,11 +112,11 @@ function Home() {
                     <iframe className ="google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.308649586721!2d-8.031160385366377!3d31.625398549113747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafeec0be8052c3%3A0x6e02c47828988a6a!2sSuper%20march%C3%A9!5e0!3m2!1sfr!2sma!4v1609972381782!5m2!1sfr!2sma"
                      width="600" 
                      height="160.23" 
-                     frameborder="0" 
+                     frameBorder="0" 
                      style={{border:0}}
-                     allowfullscreen="" 
+                     allowFullscreen="" 
                      aria-hidden="false"
-                      tabindex="0"></iframe>
+                      tabIndex="0"></iframe>
                      
                     </div>
                     </div>

@@ -121,3 +121,169 @@ overflow: hidden;
    .space{
      margin-left: 3px;
    }
+   @media screen and (max-width: 768px) {
+    .promo__bar{
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      top: 10;
+     width: 100px;
+     height: 20px ;
+     border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+     background-color:red;
+     color: #f2f2f2;
+     text-align: center;
+     z-index: 1;
+  }
+  .promo__name {
+    width: 100px;
+    font-family: "Baloo Tammudu 2";
+    font-weight: 384;
+    font-size: 15px;
+    color: #f2f2f2;
+    line-height: 26px;
+    margin-top: 7px;
+    text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+    
+    
+  }
+  .old__price{
+    width: 100px;
+    text-decoration-line: line-through; 
+    color:rgba(104, 97, 104, 0.911);
+    line-height: 26px;
+    margin-top: -12px;
+    font-size: 14px;
+    margin-bottom: 5px;
+   text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+   }
+   .promo__price {
+    width: 100px;
+    display: flex;
+    font-family: "Baloo Tammudu 2";
+    font-weight: 384;
+    font-size: 15px;
+    color: #f2f2f2;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+   }
+  .promoBlack__bar{
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   top: 10;
+  width: 101px;
+  height: 20px ;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color:red;
+  color: #f2f2f2;
+  text-align: center;
+  z-index: 1;
+  }
+   
+   .promo__img {
+     position: relative;
+     width: 100px;
+     height: 100px;
+     border-radius: 10px;
+   }
+   .promoBlack__img {
+     position: relative;
+     width: 101px;
+     height: 101px;
+     border-radius: 10px;
+   }
+   
+  }
+  @media only screen and (max-width: 893px) and (min-width: 768px)  {
+    .promo__bar{
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      top: 10;
+     width: 120px;
+     height: 20px ;
+     border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+     background-color:red;
+     color: #f2f2f2;
+     text-align: center;
+     z-index: 1;
+  }
+  .promo__name {
+    width: 120px;
+    font-family: "Baloo Tammudu 2";
+    font-weight: 384;
+    font-size: 15px;
+    color: #f2f2f2;
+    line-height: 26px;
+    margin-top: 7px;
+    text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+    
+    
+  }
+  .old__price{
+    width: 120px;
+    text-decoration-line: line-through; 
+    color:rgba(104, 97, 104, 0.911);
+    line-height: 26px;
+    margin-top: -12px;
+    font-size: 14px;
+    margin-bottom: 5px;
+   text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+   }
+   .promo__price {
+    width: 120px;
+    display: flex;
+    font-family: "Baloo Tammudu 2";
+    font-weight: 384;
+    font-size: 15px;
+    color: #f2f2f2;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+   }
+  .promoBlack__bar{
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   top: 10;
+  width: 101px;
+  height: 20px ;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color:red;
+  color: #f2f2f2;
+  text-align: center;
+  z-index: 1;
+  }
+   
+   .promo__img {
+     position: relative;
+     width: 120px;
+     height: 120px;
+     border-radius: 10px;
+   }
+   .promoBlack__img {
+     position: relative;
+     width: 101px;
+     height: 101px;
+     border-radius: 10px;
+   }
+  }
+    

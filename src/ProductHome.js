@@ -11,14 +11,14 @@ function ProductHome({ id, title, image, price ,whiteColor=false }) {
             (<img className="productHomeBlack__img" src={image} alt ="product__image"/>)} 
                 {!whiteColor ?(<p className="productHome__name">{title}</p>):
             (<p className="productHomeBlack__name">{title}</p>)} 
-                {!whiteColor ?(<p className="productHome__price">
+                {!whiteColor ?(<div className="productHome__price">
                     <span className="price__productHome">{price}</span>
                     <p>Dhs</p> 
-                </p>):
-            (<p className="productHomeBlack__price">
+                </div>):
+            (<div className="productHomeBlack__price">
             <span className="price__productHome">{price}</span>
             <p>Dhs</p> 
-        </p>)}
+        </div>)}
         </div>
     )
 }

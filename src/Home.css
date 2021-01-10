@@ -25,7 +25,7 @@
     font-family: "Baloo Tammudu 2";
     white-space: nowrap;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 5vw;
     line-height: 32px;
     text-align: center;
     color: #232323;
@@ -73,6 +73,7 @@
   }
   .items{
     display:flex ;
+    flex-flow: wrap;
   }
   .link__home ,.link__home:hover, .link__home:active, .link__home:visited, .link__home:focus{
     text-decoration:none !important;
@@ -85,7 +86,7 @@
     white-space: nowrap;
     font-family: "Baloo Tammudu 2";
     font-weight: bold;
-    font-size: 38.4px;
+    font-size: 3vw;
     line-height: 48px;
     text-align: center;
     color: #f2f2f2;
@@ -100,7 +101,7 @@
 #hero__catg{
   font-family: "Baloo Tammudu 2";
 font-weight: bold;
-font-size: 50px;
+font-size: 5vw;
 text-align: center;
 color: #232323;
 
@@ -116,10 +117,12 @@ color: #232323;
   display: flex;
  align-items: center;
  justify-content: center;
+ flex-flow: wrap;
 
   }
   .home__localisation{
     display: flex;
+    
    
     flex-direction: column;
   justify-content:center;
@@ -134,14 +137,14 @@ color: #232323;
     font-family: "Baloo Tammudu 2";
   font-weight: bold;
   line-height: 30px;
-  font-size: 30px;
+  font-size: 2.2vw;
   color: #232323;
 
   }
   .map__title{
     font-family: "Baloo Tammudu 2";
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.47vw;
   color: #232323;
 
   }
@@ -164,19 +167,25 @@ color: #232323;
   }
   .border__oredr{
     display: flex;  
+    flex-flow: wrap;
     align-items: center;
+    justify-content: center;
   }
   .address__home{
     font-family: "Baloo Tammudu 2";
     font-weight: bold;
     white-space: nowrap;
     margin: 5px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 28px;
   text-align: left;
   color: #ffe9c4;
+    
 
-
+  }
+  .google{
+    width:600; 
+    height:160.23; 
   }
   .orizontal__home {
     width: 200px;
@@ -184,4 +193,75 @@ color: #232323;
     background: #232323;
     margin-bottom: 30px;
   }
+  @media screen and (max-width: 768px)   {
+
+  .product__list{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start ;
+    text-decoration:none;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .cart__localisation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:120px;
+    padding-left: 20px;
+    padding-right: 50px;
+    border-radius: 10px;
+    background: #232323;
+
+  }
+  .address__home{
+    font-family: "Baloo Tammudu 2";
+    font-weight: bold;
+    white-space: nowrap;
+    margin: 5px;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: left;
+  color: #ffe9c4;
+
+
+  }
+  .google{
+    width:400px; 
+    height:160.23; 
+  }
+}
+@media only screen and (max-width: 893px) and (min-width: 768px)  {
+  .product__list{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start ;
+    text-decoration:none;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .cart__localisation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:120px;
+    padding-left: 20px;
+    padding-right: 50px;
+    border-radius: 10px;
+    background: #232323;
+
+  }
+  .address__home{
+    font-family: "Baloo Tammudu 2";
+    font-weight: bold;
+    white-space: nowrap;
+    margin: 5px;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: left;
+  color: #ffe9c4;
+
+
+  }
+}
   
