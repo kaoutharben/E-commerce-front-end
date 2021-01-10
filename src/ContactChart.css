@@ -6,8 +6,8 @@
 .cart__home{
     display: flex;
     justify-content: space-between;
-    width: 770px;
-    height: 300px;
+    width: 60vw;
+    height: 47vh;
     background: #232323;
     border-radius: 2px;
 }
@@ -43,33 +43,33 @@
     outline-width: 0;
 }
 .cart__input1[text]{
-    font-size:8pt ;
+    font-size:1vw ;
     
 }
 .cart__input1::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  font-size: 10pt;
+  font-size: 1.2vw;
   }
   .cart__input1::-moz-placeholder { /* Firefox 19+ */
-  font-size: 10pt;
+  font-size:1.2vw;
   }
   .cart__input1:-ms-input-placeholder { /* IE 10+ */
-    font-size: 10pt;
+    font-size:1.2vw;
   }
   .cart__input1:-moz-placeholder { /* Firefox 18- */
-    font-size: 10pt;
+    font-size: 1.2vw;
   }
   .cart__input2::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    font-size: 10pt;
+    font-size: 1.2vw;
     }
     .cart__input2::-moz-placeholder { /* Firefox 19+ */
-    font-size: 10pt;
+    font-size: 1.2vw;
     }
     .cart__input2:-ms-input-placeholder { /* IE 10+ */
-      font-size: 10pt;
+      font-size: 1.2vw;
 
     }
     .cart__input2:-moz-placeholder { /* Firefox 18- */
-      font-size: 10pt;
+      font-size: 1.2vw;
     }
     .cart__input2{
         background-color: #f2f2f2;
@@ -93,7 +93,7 @@
     }
     .cart__input2[text]{
 
-      font-size:8pt ;
+      font-size:1vw ;
      
     }
     .cart__button{
@@ -130,5 +130,8 @@
         margin-right: auto;
         margin-top: auto;margin-bottom: auto;
       
+    }
+    .cart__picture{
+      width: 15vw;
     }
   
