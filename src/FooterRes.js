@@ -1,23 +1,21 @@
 import React from 'react';
-import "./Footer.css";
+import "./FooterRes.css";
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 function Footer() {
     const theme = createMuiTheme({
-        typography: {
-          fontSize: 'large',
-        },
+       
         '@media (min-width:768px)': {
             fontSize: 'Small',
           },
         
       });
     return (
-        <div className='footer'>
-            <div className="footer__right">
-                <div className="subline">
+        <div className='footerRes'>
+            <div className="footer__right__res">
+                <div className="subline__res">
                     <span className="right">
                             CONTACT US
                     </span>
@@ -31,7 +29,7 @@ function Footer() {
                     </div>
 
                 </div>
-                <div className='subline'>
+                <div className='subline__res'>
                     <span className="right">
                             SERVICES
                     </span>
@@ -44,25 +42,10 @@ function Footer() {
                         <span className="line">Actualités</span>
                     </div>
                 </div>
-                <div className="subline">
-                    <span className="right">
-                                INFORMATION
-                    </span>
-                    <div className="left">
-                        <span className ="line">
-                            Facebook
-                        </span>
-                        <span className="line">
-                            Instagram
-                         </span>
-                        <span className="line">
-                            Twitter
-                        </span>
-                    </div>
-                    </div>
+               
             </div>
 
-            <div className="footer__left">
+            <div className="footer__left__res">
             
                 <div >
                 <ThemeProvider theme={theme}>
